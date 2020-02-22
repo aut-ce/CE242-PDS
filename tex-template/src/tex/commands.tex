@@ -1,0 +1,206 @@
+% Commands for homework-template
+% Arithmetic Packages
+\usepackage{amsthm,amssymb,amsmath,amsfonts}
+% Page Margin Package
+\usepackage[top=35mm, bottom=20mm, left=20mm, right=20mm, headheight=32pt]{geometry}
+% Images and Figure Package
+\usepackage{graphicx}
+% Color Pakcage
+\usepackage{color}
+% Vertical Space Library
+\usepackage{setspace}
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage{lastpage}
+% uncomment bellow for reseting footnotes at each problem
+%\usepackage[perpage]{footmisc}
+
+\usepackage{enumitem}
+%\usepackage{titlesec}
+
+% Hyperlink Package
+\usepackage[pagebackref=false,colorlinks,linkcolor=blue,citecolor=red]{hyperref}
+\usepackage[nameinlink]{cleveref}%capitalize,,noabbrev
+\AtBeginDocument{
+	\crefname{equation}{برابری}{equations}%
+	\crefname{chapter}{تمرین سری}{chapters}%
+	\crefname{section}{بخش}{sections}%
+	\crefname{enumi}{مورد}{items}%
+	\crefname{footnote}{زیرنویس}{footnotes}%
+	\crefname{figure}{شکل}{figures}%
+	\crefname{table}{جدول}{tables}%
+	\crefname{theorem}{قضیه}{theorems}%
+	\crefname{lemma}{لم}{lemmas}%
+	\crefname{corollary}{نتیجه}{corollaries}%
+	\crefname{proposition}{گزاره}{propositions}%
+	\crefname{definition}{تعریف}{definitions}%
+	\crefname{result}{نتیجه}{results}%
+	\crefname{example}{مثال}{examples}%
+	\crefname{remark}{نکته}{remarks}%
+	\crefname{note}{یادداشت}{notes}%
+}
+
+
+% uncomment clicked pages hyperlink non-colorized
+%\usepackage[pagebackref=false]{hyperref}
+
+% Headers Setting Package
+\usepackage{fancyhdr}
+
+% Indexing Library
+\usepackage{makeidx,multicol}
+\setlength{\columnsep}{1.5cm}
+
+\newcommand{\AUTtitle}{
+	\includegraphics[height=5cm,width=12cm]{../img/common/fa-logo}
+}
+%%%%%%%%%%%%%%%%%
+\usepackage{verbatim}
+\makeindex
+\usepackage{sectsty}
+\usepackage{xepersian}%[extrafootnotefeatures]
+\SepMark{-}
+\settextfont[Scale=1.2]{IRNazli}
+\setlatintextfont{Times New Roman}
+\renewcommand{\labelitemi}{$\bullet$}
+%%%%%%%%%%%%%%%%%
+
+% Persian Number format for formla
+%\setdigitfont[Scale=1.1]{Yas}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% more font style 
+\defpersianfont\chapternumber[Scale=3]{IRNazli}
+\defpersianfont\Zar[Scale=1.2]{IRZar}
+%\chapterfont{\centering}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\LARGE\bfseries}%\Large
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand{\cftlottitlefont}{\hspace*{\fill}\LARGE\bfseries}%\Large
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}
+\renewcommand{\cftloftitlefont}{\hspace*{\fill}\LARGE\bfseries}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}
+\renewcommand{\chaptername}{تمرین سری}
+
+\newcommand{\deadlineMassageGen}[5]
+{
+تحویل تا ساعت #1:#2 روز دوشنبه مورخ #3/#4/#5 از طریق سامانه درس
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\FirstPageStyle{%
+\setlength{\headheight}{148pt} 
+\fancyhf{}
+\fancyhead[C]{\courseheader}
+
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+}
+
+
+\newcommand\PageStyle[1]{
+\setlength{\headheight}{64pt} 
+\fancyhf{}
+\fancyhead[C]{
+\bfseries\large\CourseName
+}
+\fancyhead[R]{
+\bfseries تمرین سری \tartibinumeral{\HomeworkSeries}
+}
+\renewcommand{\headrule}{
+	\centering
+			\vspace{2mm}
+		\hrule height1.5pt
+		\vspace{3mm}
+		\bfseries
+		{
+			\settextfont[Scale=1.2]{IRRoya} \bfseries
+			\large\deadlineMassageGen{\DeadlineHour}{\DeadlineMin}{\DeadlineYear}{\DeadlineMonth}{\DeadlineDay}
+			
+		}
+		\vspace{3mm}
+		\hrule height1.5pt
+		\vspace{3mm}
+}
+\fancyhead[L]{\bfseries #1}
+\fancyfoot[L]{Bottom Left}
+\fancyfoot[C]{
+صفحه‌ی 
+ {\thepage}
+ از 
+   \pageref{LastPage}
+}
+\fancyfoot[R]{Bottom Right}
+
+}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+
+
+\pagestyle{fancy}
+\newcommand{\genSemester}[3]{
+نیم‌سال 
+\tartibinumeral{#3}
+سال تحصیلی
+#2-#1
+}
+
+
+\newcommand{\courseheader}{
+		\hrule height1.5pt
+			\vspace{2mm}
+\begin{minipage}{3.25cm}
+	\centering
+	\includegraphics[width=2cm]{../img/common/fa-logo}
+	\\
+	{\scriptsize\bfseries
+	\UniversiryName	
+	}
+	
+	
+
+\end{minipage}
+\hfill
+\begin{minipage}{8cm}
+	\centering
+	\baselineskip=0.8cm
+	{ \Large \bfseries 
+	\CourseName
+	}\\[1mm]
+	{‌\large \bfseries
+		\genSemester{\SemesterYear}{\the\numexpr \SemesterYear + 1 \relax}{\SemesterTerm}
+	}
+	\\[2mm]
+	{
+		\huge\bfseries {تمرین سری \tartibinumeral{\HomeworkSeries}}
+	}
+\end{minipage}
+\hfill
+\begin{minipage}{3.25cm}
+	\centering
+	\includegraphics[width=2cm]{../img/common/fa-logo}
+	\\
+	{\scriptsize\bfseries
+		\DepartmentName
+	}
+	
+\end{minipage}
+\\[1mm]
+{ \centering
+	\hrule height1.5pt
+	\vspace{3mm}
+	\bfseries
+	{
+	\settextfont[Scale=1.2]{IRRoya} \bfseries
+	\large\deadlineMassageGen{\DeadlineHour}{\DeadlineMin}{\DeadlineYear}{\DeadlineMonth}{\DeadlineDay}
+
+}
+	\vspace{3mm}
+	\hrule height1.5pt
+	\vspace{3mm}
+}
+}	
