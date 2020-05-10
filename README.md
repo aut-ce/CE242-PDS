@@ -15,6 +15,7 @@ Course students are advised to copy this repository and compare it with their so
 
 ### Problem Sets Quick Links 
 
-* [**Problem-Set-01**](https://github.com/aliemo/ce-aur-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-01)
-* [**Problem-Set-02**](https://github.com/aliemo/ce-aur-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-02)
-* [**Problem-Set-03**](https://github.com/aliemo/ce-aur-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-03)
+* [**Problem-Set-01**](https://github.com/aliemo/ce-aut-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-01)
+* [**Problem-Set-02**](https://github.com/aliemo/ce-aut-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-02)
+* [**Problem-Set-03**](https://github.com/aliemo/ce-aut-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-03)
+* [**Problem-Set-04**](https://github.com/aliemo/ce-aut-pds-2020/tree/master/ProblemSets/PDS-ProblemSet-04)
