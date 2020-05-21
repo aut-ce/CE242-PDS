@@ -25,7 +25,8 @@ entity generic_stack is
 	);
 	port (
 		clock     : in  std_logic ;
-		clear     : in  std_logic_vector(m -1 downto 0) ;
+		din       : in  std_logic_vector(m -1 downto 0) ;
+		clear     : in  std_logic ;
 		push      : in  std_logic ;
 		pop       : in  std_logic ;
 		dout      : out std_logic_vector(m -1 downto 0) ;
