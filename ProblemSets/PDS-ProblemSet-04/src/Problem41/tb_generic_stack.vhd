@@ -37,8 +37,9 @@ architecture testbench of tb_generic_stack is
 		);
 		port (
 			clock : in std_logic ;
-
-			clear : in std_logic_vector(m -1 downto 0) ;
+			
+			din   : in std_logic_vector(m -1 downto 0) ;
+			clear : in std_logic ;
 			push  : in std_logic ;
 			pop   : in std_logic ;
 
@@ -67,6 +68,7 @@ begin
 		)
 		port map (
 			clock     => clock ,
+			din       => data,
 			clear     => clear ,
 			push      => push ,
 			pop       => pop ,
@@ -77,7 +79,7 @@ begin
 		);
 
 	-- Clock Generation
-	clock <= not clock after 10 ns;
+	clock <= not clock after 5 ns;
 
 	-- Input Data
 	data <=
@@ -114,8 +116,8 @@ begin
 
 	pop <=
 		'0' after 000 ns,
-		'1' after 090 ns,
-		'0' after 080 ns,
+		'1' after 080 ns,
+		'0' after 090 ns,
 		'1' after 140 ns;
 
 end architecture testbench;
