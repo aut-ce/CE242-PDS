@@ -34,21 +34,21 @@ architecture testbench of tb_sine_cosine_module is
 		port (
 			aclk        : in  std_logic ;
 			din_tvalid  : in  std_logic ;
-			din         : in  std_logic_vector(16 downto 0) ;
+			din         : in  std_logic_vector(15 downto 0) ;
 			din_tready  : out std_logic ;
 			dout_tvalid : out std_logic ;
-			dout_sine   : out std_logic_vector(16 downto 0);
-			dout_cosine : out std_logic_vector(16 downto 0)
+			dout_sine   : out std_logic_vector(15 downto 0);
+			dout_cosine : out std_logic_vector(15 downto 0)
 		) ;
 	end component sine_cosine_module;
 
 	signal aclk        : std_logic ;
 	signal din_tvalid  : std_logic ;
-	signal din         : std_logic_vector(16 downto 0) ;
+	signal din         : std_logic_vector(15 downto 0) ;
 	signal din_tready  : std_logic ;
 	signal dout_tvalid : std_logic ;
-	signal dout_sine   : std_logic_vector(16 downto 0);
-	signal dout_cosine : std_logic_vector(16 downto 0)
+	signal dout_sine   : std_logic_vector(15 downto 0);
+	signal dout_cosine : std_logic_vector(15 downto 0)
 
 begin
 
