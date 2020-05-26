@@ -34,16 +34,16 @@ architecture testbench of tb_pwm is
 		port (
 			clock  : in  std_logic ;
 			reset  : in  std_logic ;
-			enable : in  std_logic ;   -- when is zero, output will be zero else heart !
-			pwm_o  : out std_logic ) ; -- output is not good port name pwm_o is better.
+			enable : in  std_logic ;
+			pwm_o  : out std_logic ) ;
 	end component;
 
 	component pwm_macro is
 		port (
 			clock  : in  std_logic ;
 			reset  : in  std_logic ;
-			enable : in  std_logic ;   -- when is zero, output will be zero else heart !
-			pwm_o  : out std_logic ) ; -- output is not good port name pwm_o is better.
+			enable : in  std_logic ; 
+			pwm_o  : out std_logic ) ;
 	end component;
 
 	signal clock        : std_logic := '0';

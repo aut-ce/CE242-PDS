@@ -21,14 +21,14 @@ use ieee.std_logic_1164.all;
 entity pwm_macro is
 	port (
 		clock  : in  std_logic ;
-		reset  : in  std_logic ;
+		reset  : in  std_logic ;   -- initialize registers, counters, fsm if exist
 		enable : in  std_logic ;   -- when is zero, output will be zero else heart !
-		pwm_o  : out std_logic ) ; -- output is not good port name pwm_o is better.
+		pwm_o  : out std_logic ) ; 
 end pwm_macro;
 
 architecture pwm_macro_arch of pwm_macro is
 
-	-- write your code, module is a fsm (johnson)
+	-- write your code
 
 begin
 
