@@ -1,0 +1,4 @@
+# Ignore Verilog Language
+*.v linguist-detectable=false
+# Detectable VHDL Language
+*.vhd linguist-detectable=true
