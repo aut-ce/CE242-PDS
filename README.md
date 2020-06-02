@@ -20,5 +20,5 @@ Course students are advised to copy this repository and compare it with their so
 * [**Problem-Set-03**](https://github.com/alimpk/aut-ce-fpga-homeworks/tree/master/ProblemSets/PDS-ProblemSet-03)
 * [**Problem-Set-04**](https://github.com/alimpk/aut-ce-fpga-homeworks/tree/master/ProblemSets/PDS-ProblemSet-04)
 * [**Problem-Set-05**](https://github.com/alimpk/aut-ce-fpga-homeworks/tree/master/ProblemSets/PDS-ProblemSet-05)
-
+* [**Problem-Set-06**](https://github.com/alimpk/aut-ce-fpga-homeworks/tree/master/ProblemSets/PDS-ProblemSet-06)
 
