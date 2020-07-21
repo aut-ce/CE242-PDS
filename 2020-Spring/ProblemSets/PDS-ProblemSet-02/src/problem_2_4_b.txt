@@ -1,0 +1,22 @@
+--/*
+--**********************************************************
+--  Design Automation Course Homework (Spring, 2020 Semester)
+--  Amirkabir University of Technology (Tehran Polytechnic)
+--  Department of Computer Engineering (CE-AUT)
+--  https://ce.aut.ac.ir
+--  Designed TA (ali[dot]mohammadpour[at]ac[dot]ir)
+--  *******************************************************
+--  Student ID  : XXXXXXX
+--  Student Name: -----------------
+--  Student Mail: -----------------
+--  *******************************************************
+--  Module: ProblemSet 2, Problem 4, Section B
+--  *******************************************************
+--  Additional Comments:
+--*/
+***********************************************************
+--------- Create Results and Reports File -----------------
+***********************************************************
+**** Copy result files (Reports and Schematics) from  *****
+**** Xilinx Vivado Design Suite to result2_4_b folder *****
+***********************************************************
