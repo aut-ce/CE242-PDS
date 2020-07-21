@@ -10,3 +10,8 @@ This repository includes course materials, homeworks and projects template sourc
 > **Instructor and Supervisor:** Professor M. Saheb Zamani
 
 > **Head Teaching Assistant:** A. Mohammadpour
+
+## Quick Links
+
+* [**PDS-2020-Spring**](https://github.com/aut-ce/CE242-PDS/tree/master/2020-Spring)
+
