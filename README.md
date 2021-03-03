@@ -11,7 +11,7 @@ This repository includes course materials, homeworks and projects template sourc
 
 ### Quick Links (Last Semester, Spring-2021)
 
-* [**PDS-2021-Spring**](https://github.com/aut-ce/CE242-PDS/tree/master/2021-Spring)
+* [**PDS-2021-Spring**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring)
 
 ### How to complete Lab course as good student
 [1] Clone repository to own account.
