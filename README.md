@@ -11,7 +11,7 @@ This repository includes course materials, homeworks and projects template sourc
 
 ## Quick Links (Last Semester, Spring-2020)
 
-* [**PDS-2020-Spring**](https://github.com/aut-ce/CE242-PDS/tree/master/2020-Spring)
+* [**PDS-2021-Spring**](https://github.com/aut-ce/CE242-PDS/tree/master/2021-Spring)
 
 ## Topics
 
@@ -31,4 +31,6 @@ This repository includes course materials, homeworks and projects template sourc
 ### Spring-2019
 [Ali Mohammadpour](https://github.com/alimpk)
 ### Spring-2020
+[Ali Mohammadpour](https://github.com/alimpk)
+### Spring-2021
 [Ali Mohammadpour](https://github.com/alimpk)
