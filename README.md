@@ -13,6 +13,10 @@ This repository includes course materials, homeworks and projects template sourc
 
 * [**PDS-2021-Spring**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring)
 
+### Problem Sets
+* [**PDS-ProblemSet-02**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet02)
+* [**PDS-ProblemSet-03**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet03)
+
 ### How to complete Lab course as good student
 [1] Clone repository to own account.
 
