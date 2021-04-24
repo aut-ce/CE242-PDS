@@ -9,11 +9,8 @@ This repository includes course materials, homeworks and projects template sourc
 
 > **Instructor and Supervisor:** Professor M. Saheb Zamani
 
-### Quick Links (Last Semester, Spring-2021)
-
-* [**PDS-2021-Spring**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring)
-
 ### Problem Sets
+* [**PDS-ProblemSet-01**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet01)
 * [**PDS-ProblemSet-02**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet02)
 * [**PDS-ProblemSet-03**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet03)
 
@@ -35,10 +32,10 @@ This repository includes course materials, homeworks and projects template sourc
 
 [6] set branch remote to private repository like CEIT Gitlab or new private fork on GitHub (`git push -u https://git.ce.aut.ac.ir/XYZ lab-xx`)
 
-[7] after passing the course, add your id and semester in last line of [**who-had-pds-at-aut.md**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/who-know-logic-lab.md) file by pull request.
+[7] after passing the course, add your id and semester in last line of [**who-had-pds-at-aut.md**](https://github.com/aut-ce/CE242-PDS/tree/main/who-know-logic-lab.md) file by pull request.
 
 ### Teaching Assistants and Lab Instructors over Semesters
-Dear Laboratory instructor, you can add your name and semester in [**who-had-pds-ta.md**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/who-had-logic-lab-ta.md) file by pull request or add issue.
+Dear Laboratory instructor, you can add your name and semester in [**who-had-pds-ta.md**](https://github.com/aut-ce/CE242-PDS/tree/main/who-had-logic-lab-ta.md) file by pull request or add issue.
 
 ## Teaching Assistants over Semesters
 
