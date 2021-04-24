@@ -14,6 +14,9 @@ This repository includes course materials, homeworks and projects template sourc
 * [**PDS-ProblemSet-02**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet02)
 * [**PDS-ProblemSet-03**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet03)
 
+### References
+[M. Saheb Zamani, Computer-Aided Digital Systems Design, Farsi, Shabak:9786005473148](https://ce.aut.ac.ir/~szamani/My%20FPGA%20Book/)
+
 ### How to complete Lab course as good student
 [1] Clone repository to own account.
 
@@ -32,16 +35,11 @@ This repository includes course materials, homeworks and projects template sourc
 
 [6] set branch remote to private repository like CEIT Gitlab or new private fork on GitHub (`git push -u https://git.ce.aut.ac.ir/XYZ lab-xx`)
 
-[7] after passing the course, add your id and semester in last line of [**who-had-pds-at-aut.md**](https://github.com/aut-ce/CE242-PDS/tree/main/who-know-logic-lab.md) file by pull request.
+[7] after passing the course, add your id and semester in last line of [**who-had-pds-at-aut.md**](https://github.com/aut-ce/CE242-PDS/tree/main/who-had-pds-at-aut.md) file by pull request.
 
 ### Teaching Assistants and Lab Instructors over Semesters
-Dear Laboratory instructor, you can add your name and semester in [**who-had-pds-ta.md**](https://github.com/aut-ce/CE242-PDS/tree/main/who-had-logic-lab-ta.md) file by pull request or add issue.
+Dear Laboratory instructor, you can add your name and semester in [**who-had-pds-ta.md**](https://github.com/aut-ce/CE242-PDS/tree/main/who-had-pds-ta.md) file by pull request or add issue.
 
-## Teaching Assistants over Semesters
+## Current Maintrainer Teaching Assistants
 
-### Spring-2019
-[Ali Mohammadpour](https://github.com/alimpk)
-### Spring-2020
-[Ali Mohammadpour](https://github.com/alimpk)
-### Spring-2021
 [Ali Mohammadpour](https://github.com/alimpk)
