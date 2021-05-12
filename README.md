@@ -13,6 +13,7 @@ This repository includes course materials, homeworks and projects template sourc
 * [**PDS-ProblemSet-01**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet01)
 * [**PDS-ProblemSet-02**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet02)
 * [**PDS-ProblemSet-03**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet03)
+* [**PDS-ProblemSet-04**](https://github.com/aut-ce/CE242-PDS/tree/main/2021-Spring/ProblemSets/ProblemSet04)
 
 ### References
 [M. Saheb Zamani, Computer-Aided Digital Systems Design, Farsi, Shabak:9786005473148](https://ce.aut.ac.ir/~szamani/My%20FPGA%20Book/)
