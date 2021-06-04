@@ -18,10 +18,17 @@ This repository includes course materials, homeworks and projects template sourc
 
 ### PDF Version of ProblemSets
 
-* [:ledger:**PDS-ProblemSet-05**](https://github.com/aut-ce/rawdata/raw/CE242-PDS/2021-Spring/pdf/PDS-ProblemSet-5.pdf)
+* [:ledger:**PDS-ProblemSet-01**](https://github.com/aut-ce/rawdata/raw/CE242-PDS/CE242-PDS/2021-Spring/pdf/PDS-ProblemSet-1.pdf)
+* [:ledger:**PDS-ProblemSet-02**](https://github.com/aut-ce/rawdata/raw/CE242-PDS/CE242-PDS/2021-Spring/pdf/PDS-ProblemSet-2.pdf)
+* [:ledger:**PDS-ProblemSet-03**](https://github.com/aut-ce/rawdata/raw/CE242-PDS/CE242-PDS/2021-Spring/pdf/PDS-ProblemSet-3.pdf)
+* [:ledger:**PDS-ProblemSet-04**](https://github.com/aut-ce/rawdata/raw/CE242-PDS/CE242-PDS/2021-Spring/pdf/PDS-ProblemSet-4.pdf)
+* [:ledger:**PDS-ProblemSet-05**](https://github.com/aut-ce/rawdata/raw/CE242-PDS/CE242-PDS/2021-Spring/pdf/PDS-ProblemSet-5.pdf)
 
 ### References
 [M. Saheb Zamani, Computer-Aided Digital Systems Design, Farsi, Shabak:9786005473148](https://ce.aut.ac.ir/~szamani/My%20FPGA%20Book/)
+<p align="center">
+  <img width="240" height="340" src="https://raw.githubusercontent.com/aut-ce/rawdata/CE242-PDS/CE242-PDS/cadsd_szamani.jpg">
+</p>
 
 ### How to complete Lab course as good student
 [1] Clone repository to own account.
